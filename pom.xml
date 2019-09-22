@@ -23,7 +23,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.jwebmp.jpms.commons</groupId>
+    <groupId>com.jwebmp.jpms.thirdparty.commons</groupId>
     <artifactId>commons-collections4</artifactId>
 
     <name>Apache Commons Collections</name>
@@ -448,19 +448,19 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
+            <scope>test</scope><type>jar</type>
+            </dependency>
         <dependency>
             <groupId>org.easymock</groupId>
             <artifactId>easymock</artifactId>
             <version>4.0.2</version>
-            <scope>test</scope>
-        </dependency>
+            <scope>test</scope><type>jar</type>
+            </dependency>
         <dependency>
-            <groupId>com.jwebmp.jpms.commons</groupId>
+            <groupId>com.jwebmp.jpms.thirdparty.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <scope>test</scope>
-        </dependency>
+            <scope>test</scope><type>jar</type>
+            </dependency>
     </dependencies>
 
     <properties>
